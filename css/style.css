@@ -1,0 +1,34 @@
+input[type="file"]:focus {
+  outline: 2px dotted #93c5fd;
+}
+
+input[type="file"]::file-selector-button {
+  margin-right: 10px;
+  border: none;
+  background: #084cdf;
+  padding: 3px 10px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+input[type="file"]::file-selector-button:hover,
+input[type="file"]::file-selector-button:focus {
+  background: #0d45a5;
+}
+
+.rounded-s-xl {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.rounded-e-xl {
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.w-32 {
+  width: 32.333333%;
+  height: auto;
+}
